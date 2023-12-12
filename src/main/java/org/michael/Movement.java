@@ -1,10 +1,10 @@
 package org.michael;
 
-public class MoveObject {
+public class Movement {
     private int[] currentPosition;
     private int[] directionVector;
 
-    public MoveObject(int[] initialPosition, int[] initialDirection) {
+    public Movement(int[] initialPosition, int[] initialDirection) {
         this.currentPosition = initialPosition;
         this.directionVector = initialDirection;
     }

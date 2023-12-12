@@ -1,2 +1,4 @@
-package org.michael;public class Table {
+package org.michael;
+
+public record Table(int width, int height) {
 }
